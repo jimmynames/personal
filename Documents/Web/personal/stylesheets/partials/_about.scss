@@ -1,0 +1,216 @@
+
+.about {
+    padding-bottom: 1.5em;
+}
+
+.aboutContainer {
+    display: inline-block;
+}
+
+.aboutText {
+    max-width: 50%;
+    display: inline-block;
+    width: 40%;
+    padding: 1em;
+    padding-top: 0;
+    
+}
+
+.imageContainer {
+    
+    width: 40%;
+    margin: auto 0;
+    float: right;
+}
+
+
+
+.imageBtn:hover {
+    
+    border-radius: 0.4em;
+    opacity: .6;
+}
+
+.aboutImg {
+    z-index: 50;
+    height: 300px;
+    width: 300px; 
+    
+}
+
+#aboutPlant {
+    z-index: -1;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    /*
+    left: 200px;
+    bottom: 100px;
+    */
+    left: -120px;
+    bottom: -80px;
+    
+}
+
+#aboutDiv {
+    z-index: -1;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    /*
+    left: 240px;
+    bottom: 460px;
+    */
+    left: 270px;
+    bottom: 430px;
+    
+}
+
+#aboutFish {
+    z-index: -1;
+    height: 220px;
+    width: 220px;
+    position: relative;
+    /*
+    left: -100px;
+    bottom: 750px;
+    */
+    bottom: 250px;
+    left: -430px;
+}
+
+#aboutView {
+    z-index: 49;
+    height: 130px;
+    width: 130px;
+    position: relative;
+    /*
+    left: 50px;
+    bottom: 450px;
+    */
+    left: -175px;
+    bottom: 140px;
+    
+}
+
+.x {
+    position: relative;
+    height: 3px;
+    width: 5px;
+    color: transparent;
+    background-color: transparent;
+    border: none; 
+    outline: none;
+}
+
+#jamesX {
+    bottom: 228px;
+    left: 254px;
+}
+
+#plantX {
+    bottom: 277px;
+    left: 405px;
+}
+
+#fishX {
+    bottom: 450px;
+    left: -180px;
+    border: 2px solid red;
+}
+
+#divX {
+    border: 2px solid red;
+    bottom: 337px;
+    left: -138px;
+    z-index: 99;
+}
+
+#viewX {
+    border: 2px solid red;
+    bottom: 250px;
+    left: -150px;
+    z-index: 99;
+}
+
+.tags {
+    display: inline-block;
+    max-width: 50%;
+    padding-top: 1em;
+    padding-left: 1em;
+    color: darkgrey;
+    font-size: 0.8em;
+    width: 33%;
+    cursor: default;
+    text-align: center;
+   
+    li {
+       display: inline-block;
+       border-radius: 5px;
+       padding: 4px 5px;
+        margin: 0.5em;
+       color: lightgrey;
+       border: 2px solid lightgrey;
+    }
+    
+    li:hover {
+        background-color: lightgrey;
+        color: white;
+        cursor: default;
+    }
+    
+}
+
+/* Learning */
+
+.learnContainer {
+    max-width: 50%;
+    width: 50%;
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.learnIcon {
+    
+    height: 75px;
+    width: 75px;
+    display: inline-block;
+}
+
+.fccContainer {
+    width: 75px;
+    height: 75px;
+    
+}
+
+#fccIcon {
+    height: 55px;
+    width: 55px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.column {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 2em;
+}
+
+
+.aboutMeTitle {
+    max-width: 50%;
+    width: 50%;
+    font-size: 1.5em;
+    margin-left: 0.7em;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    display: inline-block;
+}   
+
+.aboutMe {
+    font-size: 0.9em;
+    margin-left: 0.7em;
+    padding: 1em;
+}
