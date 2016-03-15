@@ -1,7 +1,66 @@
-.jimmyImages {
-    display: none;
+.proScreenshotImage {   
+    border: 1px solid #ededed;
+    border-color: rgba(255,255,255,0.75);
+    border-radius: 0 0 3px 3px;
+    border-top: 0;
 }
 
 
+.fake-ui {
+    text-align: center;
+    display: block;
+    padding:8px;
+    background:#d3d3d3;
+    border-radius:3px 3px 0 0;
+    position:relative
+}
 
+.fake-circle-btn {
+    width:8px;
+    height:8px;
+    background:#ffffff;
+    border-radius:50%;
+    margin-right:5px;
+    float:left
+}
 
+.fake-addr-bar {
+    background:white;
+    height:8px;
+    border-radius:2px;
+    margin-left:49px;
+    margin-right:32px;
+}
+
+.fake-back-btn,
+.fake-next-btn {
+    height:8px;
+    width:8px;
+    background:#ffffff;
+    float:right;
+    position:absolute
+}
+
+.fake-back-btn {
+    border-radius:0 3px 3px 0;
+    top:8px;
+    right:8px
+}
+
+.fake-next-btn {
+    border-radius:3px 0 0 3px;
+    top:8px;
+    right:17px
+}
+
+.green:hover {
+    background: #AADD00;
+}
+
+.yellow:hover {
+    background: #FCD116;
+}
+
+.red:hover {
+    background: #FF2400;
+}

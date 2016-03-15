@@ -1,192 +1,257 @@
 <!doctype html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>jimmyNames</title>
-    
-  <meta name="description" content="Portfolio">
-  <meta name="author" content="Jimmy Names">
-  
-  <link rel="stylesheet" href="stylesheets/main.css">
 
-  <!--[if lt IE 9]>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>jimmyNames</title>
+
+   <meta name="description" content="Portfolio">
+   <meta name="author" content="Jimmy Names">
+
+   <link rel="stylesheet" href="stylesheets/main.css">
+    <script src="js/nickNames.js"></script>
+   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-  
+
 </head>
-<div class="wrapper">
-<body>
-  <section>  
-  <div class="hero">
-  <div class="heroText">
-  <h1 class="heroTitle">Hi,<br> My names James but most people call me Jimmy.<br>
-      I code under the alais of jimmyNames but you can call me _________. </h1>
-  </div>
-  
-  </section>
-  </div>
-    
-    <nav>
-        <!-- Emoji Toggle -->
+   <body>
+    <div class="wrapper">
         
-   <div class="emoji-toggle emoji-james">
-  <input type="checkbox" id="toggle1" class="toggle">
-  <div class="emoji"></div>
-  <label for="toggle1" class="well"></label>
-</div>
+        
+        
+      <section>
+         <div class="hero">
+            <div class="heroText">
+               <h1 class="heroTitle">Hi,</h1>
+                <h1 class="heroTitle">My name is James but most people call me Jimmy.</h1>
+                <h1 class="heroTitle">I code under the alais of jimmyNames.</h1> <!-- but you can call me <span class="" id="nickName"></span>.</h1> -->
+                </div>
+             
+                 <div class="navWrapper">
+      <nav>
+          <div class="navContainer">
+         <!-- Emoji Toggle -->
+         <div class="emoji-toggle emoji-james">
+            <input type="checkbox" id="toggle1" class="toggle">
+            <div class="emoji"></div>
+            <label for="toggle1" class="well"></label>
+         </div>
+              </div>
+      </nav>
+           </div>
+            
+      
+      </div>
+          </section>
+
+       
 
 
+       
+       
+       
+      <section class="about">
+         <div class="aboutContainer">
+         
+               <h2 class="title">About</h2>
+                  <div class="aboutMe">
+               <p class="aboutText">Self taught Front-end Developer looking for internships or Junior Front-end Dev roles to enhance my learning and gain experience whilst hopefully working on cool projects.</p>
 
-    </nav>
-  
-    
-    <section class="about">
-        <div class="aboutContainer">
-        <h2 class="title">About</h2>
-            <br>
-    <p class="aboutText">Self taught Front-end Developer looking for internships or Junior Front-end Dev roles to enhance my learning and gain experience whilst hopefully working on cool projects.</p>
-           
-           
-            
-            
-           
-        <div class="imageContainer jimmyImages">
-            
-            <button class="x" id="jamesX">X</button>
-        <img class="aboutImg" src="images/me.png" alt="me.png">
-           
-                 <button class="x" id="plantX">X</button>
-            <img id="aboutPlant" src="images/plantlife.png" alt="plantLife.png">
-           
-             
-                 <button class="x" id="divX">X</button>
-            <img id="aboutDiv" src="images/div.png" alt="div.png">
-            
-             
-                 <button class="x" id="viewX">X</button>
-            <img id="aboutView" src="images/view.png" alt="plant.png">
-           
-             
-                 <button class="x" id="fishX">X</button>
-            <img id="aboutFish" src="images/fish.png" alt="fish.png">
+               <div class="learnContainer">
+                  <div class="column imageBtn">
+                     <a href="https://www.codecademy.com/jimmynames" target="_blank"><img class="learnIcon" src="images/learningLogos/code.png" alt="Codecademy">
+                     </a>
+                  </div>
+                  <div class="column imageBtn">
+                     <a href="https://www.teamtreehouse.com/names" target="_blank"><img class="learnIcon" src="images/learningLogos/treehouse.png" alt="Codecademy">
+                     </a>
+                  </div>
+                  <div class="column ">
+                     <div class="fccContainer imageBtn">
+                        <a href="http://www.freecodecamp.com/jimmynames" target="_blank"><img class="learnIcon" id="fccIcon" src="images/learningLogos/fcc.svg" alt="Codecademy">
+                        </a>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="skillList">
+                  <ul class="tags">
+                     <li>HTML5</li>
+                     <li>CSS3</li>
+                     <li>Bootstrap</li>
+                     <li>Sass</li>
+                     <li>Javascript</li>
+                     <li>JQuery</li>
+                     <li>Ajax</li>
+                     <li>Wordpress</li>
+                     <li>Git</li>
+                  </ul>
+               </div>
             </div>
-                       
+
+<div class="imageArea">
+           <div class="jimmyImages">
+
+               <button class="x" id="jamesX">X</button>
+               <img class="aboutImg" src="images/jimmy/me.png" alt="me.png">
+
+               <button class="x" id="plantX">X</button>
+               <img id="aboutPlant" src="images/jimmy/plantlife.png" alt="plantLife.png">
+
+               <button class="x" id="divX">X</button>
+               <img id="aboutDiv" src="images/jimmy/div.png" alt="div.png">
+
+
+               <button class="x" id="viewX">X</button>
+               <img id="aboutView" src="images/jimmy/view.png" alt="plant.png">
+
+
+               <button class="x" id="fishX">X</button>
+               <img id="aboutFish" src="images/jimmy/fish.png" alt="fish.png">
+            </div>
+
+            
             <div class="imageContainer jamesImages">
-            
-                <img class="aboutImg" src="images/james/james.jpeg" alt="James Ryan">
+               <img class="aboutImg" src="images/james/james.jpeg" alt="James Ryan">
             </div>
-            
-            
-        <div class="learnContainer">
-            <div class="column imageBtn">
-                <a href="https://www.codecademy.com/jimmynames" target="_blank"><img class="learnIcon" src="images/learningLogos/code.png" alt="Codecademy"></a>
-                </div>
-            <div class="column imageBtn">
-                <a href="https://www.teamtreehouse.com/names" target="_blank"><img class="learnIcon" src="images/learningLogos/treehouse.png" alt="Codecademy"></a>
-            </div>
-            <div class="column ">
-                <div class="fccContainer imageBtn">
-        <a href="http://www.freecodecamp.com/jimmynames" target="_blank"><img class="learnIcon" id="fccIcon" src="images/learningLogos/fcc.svg" alt="Codecademy"></a>
+             </div>
+         
+         <div class="aboutMeDetail">
+            <h3 class="aboutMeTitle">Me</h3>
+
+             <p class="aboutMe">With a background in Psychology, specialising in Clinical and Digital Psychology, I found myself working for Mental-health Startup, Buddy App. Here I was introduced to the <em>tech</em> world. Great people, cool office spaces and Agile working led to my eventual love of start-up cultre. Working within a small team, my roles spanned across various elements within the company including: copywriter, RND, Product and Project Manager. Whilst I enjoyed my work there, after just over a year of working within Tech and not writing any code I wanted to build and design for myself. </p>
+
+            <p class="aboutMe">I left the company to travel Asia for six months and upon return I've spent the past 9 months teaching myself how to design and develop. In addition to holding down a part-time job as a Barista whilst studying every day, I've managed to secure work with local businesses and work on my own personal projects.</p>
+             </div>
+         </div>
+      </section>
+
+       
+       
+       
+       
+       
+       
+       
+      <section class="workSection">
+         <section class="workList">
+            <h2 class="title">Work</h2>
+            <ul>
+               <li class="workItem">
+                  <div class="workScreenshot">
+                     <img class="workScreenshotImage" src="images/examples/hideout.restaurant.png" alt="">
+                  </div>
+
+                  <div class="workInfoSection" id="hideoutInfo">
+                     <h3 class="workTitle">Hideout Popup Restaurant</h3>
+                      <div class="workSection">
+                          <!-- James Work Text -->
+                     <p class="workText workJames james">Designed and built website for pop-up Restaurant business. Utilised Wordpress to allow owners control of plugin features and content management. Customised theme to give unique feel to site adhering to clients brief.</p>
+                          <!-- Jimmy Xp Bars -->
+                          
+                        <div id="skillset jimmy">
+                            <div class="skill">
+                                <h5>CSS</h5>
+                                    <span class="bar"><span class="skillbar htmlcss"></span></span>
+                            </div>  
+                            <div class="skill">
+                                <h5>Wordpress</h5>
+                                    <span class="bar"><span class="skillbar htmlcss"></span></span>
+                            </div> 
+                            <div class="skill">
+                                <h5>Working with Clients</h5>
+                                    <span class="bar"><span class="skillbar htmlcss"></span></span>
+                            </div>
+                            <div class="skill">
+                                <h5>Minimalism</h5>
+                                    <span class="bar"><span class="skillbar htmlcss"></span></span>
+                            </div>  
+                        </div>    
                     </div>
-        </div>
-            </div>
-            
-            <div class="skillList">
-            
-                <ul class="tags">
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>Bootstrap</li>
-                    <li>Sass</li>
-                    <li>Javascript</li>
-                    <li>JQuery</li>
-                    <li>Ajax</li>
-                    <li>Wordpress</li>
-                    <li>Git</li>
-                   
-                </ul>
-            
-                </div>
-        </div>
-         <h3 class="aboutMeTitle">Me</h3>
-            
-                <p class="aboutMe">With a background in Psychology, specialising in Clinical and Digital Psychology, I found myself working for Mental-health Startup, Buddy App, to which I was introduced to the tech world. Cool office spaces, great people and agile working led to my eventual love of this cultre and work. Working within a small team, my roles spanned various elements within the company including copywriter, RND, Research Manager, Product Manager and Project Manager and whilst I enjoyed engaging with users and developers I wanted to build and design for myself. </p>
-            
-            <p class="aboutMe">I left the company to travel Asia for six months and upon returning I've spent the past 9 months teaching myself how to design and develop. In addition to holding down a part-time job as a Barista, I managed to secure some work for local businesses whilst working on my own personal projects.</p>
- 
-    </section>
-    
-    <section class="workSection">
-    <section class="workList">
-        <h2 class="title">Work</h2>
-        <ul>
-            <li class="workItem">
-                <div class="workScreenshot">
-                <img class="workScreenshotImage" src="images/examples/hideout.restaurant.png" alt="">
-                </div>
-                
-                <div class="workInfoSection" id="hideoutInfo">
-                <h3 class="workTitle">Hideout Popup Restaurant</h3>
-                <p class="workText"></p>
-                </div>
-            </li>
-        </ul>
-    </section>
-    
-    </setion>
-    
-    <section class="projectSection">
-     <section class="workList">
-         <h2 class="title">Projects</h2>
-        <ul>
-            <li class="workItem">
-                <div class="workScreenshot">
-                <img class="workScreenshotImage" src="images/examples/uao.com.png" alt="">
-                </div>
-                <h3 class="workTitle">Unite Against Oppression</h3>
-                <div class="workInfoSection" id="hideoutInfo">
-                <p class="workText"></p>
-                </div>
-            </li>
-            
-            <li class="workItem">
-                <div class="workScreenshot">
-                <img class="workScreenshotImage" src="images/examples/jimbongo.com.png" alt="">
-                </div>
-                <h3 class="workTitle">Jimmy's Bongo Lifestyle Blog</h3>
-                <div class="workInfoSection" id="hideoutInfo">
-                <p class="workText"></p>
-                </div>
-            </li>
-            
-            <li class="workItem">
-                <div class="workScreenshot">
-                <img class="workScreenshotImage" src="images/examples/checkm8s.net2.png" alt="">
-                </div>
-                
-                <h3 class="workTitle">Checkm8s</h3>
-                <div class="workInfoSection" id="hideoutInfo">
-                <p class="workText"></p>
-                </div>
-            </li>
-            
-            <li class="workItem">
-                <div class="workScreenshot">
-                <img class="workScreenshotImage" src="" alt="">
-                </div>
-                <h3 class="workTitle">LS Graphic Design Portfolio</h3>
-                <div class="workInfoSection" id="hideoutInfo">
-                <p class="workText"></p>
-                </div>
-            </li>
-            
-        </ul>
-    </section>
-    </section>
-    
-    
-    </div>
+                  </div>
+               </li>
+            </ul>
+         </section>
+         </section>
+
+         <section class="proSection">
+            <section class="proList">
+               <h2 class="proTitle title">Projects</h2>
+               <ul>
+                  <li class="proItem">
+                     <div class="proScreenshot">    
+                        <div class="fake-ui">
+                            <div class="fake-circle-btn red"></div>
+                            <div class="fake-circle-btn yellow"></div>
+                            <div class="fake-circle-btn green"></div>
+                            <div class="fake-addr-bar"></div><div class="fake-back-btn"></div>
+                            <div class="fake-next-btn"></div></div>
+                         <img class="proScreenshotImage" src="images/examples/uao.com.png" alt="">
+                     </div>
+                     <h3 class="proTitle">Unite Against Oppression</h3>
+                     <div class="proInfoSection" id="hideoutInfo">
+                        <p class="proText"></p>
+                     </div>
+                  </li>
+
+                  <li class="proItem">
+                     <div class="proScreenshot">
+                        <div class="fake-ui">
+                            <div class="fake-circle-btn red"></div>
+                            <div class="fake-circle-btn yellow"></div>
+                            <div class="fake-circle-btn green"></div>
+                            <div class="fake-addr-bar"></div><div class="fake-back-btn"></div>
+                            <div class="fake-next-btn"></div></div>
+                         <img class="proScreenshotImage" src="images/examples/jimbongo.com.png" alt="">
+                     </div>
+                     <h3 class="proTitle">Jimmy's Bongo Lifestyle Blog</h3>
+                     <div class="proInfoSection" id="hideoutInfo">
+                        <p class="proText"></p>
+                     </div>
+                  </li>
+
+                  <li class="proItem">
+                     <div class="proScreenshot">
+                        <div class="fake-ui">
+                            <div class="fake-circle-btn red"></div>
+                            <div class="fake-circle-btn yellow"></div>
+                            <div class="fake-circle-btn green"></div>
+                            <div class="fake-addr-bar"></div><div class="fake-back-btn"></div>
+                            <div class="fake-next-btn"></div></div>
+                         <img class="proScreenshotImage" src="images/examples/checkm8s.net2.png" alt="">
+                     </div>
+
+                     <h3 class="proTitle">Checkm8s</h3>
+                     <div class="proInfoSection" id="hideoutInfo">
+                        <p class="proText"></p>
+                     </div>
+                  </li>
+
+                  <li class="proItem">
+                     <div class="proScreenshot">
+                        <div class="fake-ui">
+                            <div class="fake-circle-btn red"></div>
+                            <div class="fake-circle-btn yellow"></div>
+                            <div class="fake-circle-btn green"></div>
+                            <div class="fake-addr-bar"></div><div class="fake-back-btn"></div>
+                            <div class="fake-next-btn"></div></div>
+                         <img class="proScreenshotImage" src="images/examples/spratt.jpg" alt="">
+                     </div>
+                     <h3 class="proTitle">LS Graphic Design Portfolio</h3>
+                     <div class="proInfoSection" id="hideoutInfo">
+                        <p class="proText"></p>
+                     </div>
+                  </li>
+
+               </ul>
+            </section>
+         </section>
+
+
+</div>
 </body>
+
 </html>

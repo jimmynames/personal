@@ -4,6 +4,7 @@
 
 html, body {
   height: 100%;
+  background-color: black; 
 }
 
 body {
@@ -31,13 +32,3 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
 }
 
 //
-
-.title {
-    max-width: 50%;
-    width: 50%;
-    font-size: 2em;
-    margin-left: 0.7em;
-    margin-bottom: 1em;
-    padding-top: 1em;
-    display: inline-block;
-}

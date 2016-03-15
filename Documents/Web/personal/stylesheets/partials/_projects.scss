@@ -1,0 +1,47 @@
+/* //////// Projects ///////// */
+
+ /* <li class="proItem">
+                     <div class="proScreenshot">
+                        <img class="proScreenshotImage" src="images/examples/jimbongo.com.png" alt="">
+                     </div>
+                     <h3 class="proTitle">Jimmy's Bongo Lifestyle Blog</h3>
+                     <div class="proInfoSection" id="hideoutInfo">
+                        <p class="proText"></p>
+                     </div>
+                  </li>
+*/
+
+.proSection {
+    width: 100%;
+    margin: auto 0;
+    background-color: whitesmoke;
+}
+
+.proList {
+    text-align: center;
+    margin: auto 0;
+}
+
+.proItem {
+    display: inline-block;
+    width: 25%;
+    padding: 1em;
+    margin: 1.3em;
+}
+
+.proScreenshot {
+   height: 230px;
+    width: 330px;
+    
+}
+
+.proScreenshotImage {
+    height: inherit;
+    width: inherit;
+}
+
+.proTitle {}
+
+.proInfoSection {}
+
+.proText {}

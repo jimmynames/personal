@@ -1,3 +1,22 @@
+/* //////// General ////// */
+
+.navContainer {
+    background-color: black;
+    
+}
+
+.navWrapper {
+    width: 100%;
+    position: absolute;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: black;
+    top: 100%;
+    transform: translateY(-100%);
+}
+
+/* ////// Emoji Slider ///// */
+
 // Base class
 .emoji-toggle {
   position: relative;
@@ -30,11 +49,13 @@
     }
     &:checked {
       ~.emoji:before {
+       
         left: 100%;
-        margin-left: -1em;
+        margin-left: -0.9em;
       }
     }
     ~label {
+        color: white;
       white-space: nowrap;
       &:before {
         position: absolute;
@@ -77,4 +98,28 @@
   @include emojiType(
     "\01F454", "\01F47D", "James", "Jimmy"
   );
+}
+
+
+/* ///////// About Me Images Toggle ///////// */
+
+.emoji-toggle {
+      
+    #toggle1 {
+        
+        &:checked {
+        
+            ~div.jimmyImages {
+                display: initial;  
+        }
+            ~div.jamesImages {
+                display: none;
+            }
+        
+    }
+    
+
+}
+ 
+    
 }
