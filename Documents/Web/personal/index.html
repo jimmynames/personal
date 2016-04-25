@@ -9,9 +9,12 @@
 
    <meta name="description" content="Portfolio">
    <meta name="author" content="Jimmy Names">
-
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
    <link rel="stylesheet" href="stylesheets/main.css">
-    <script src="js/nickNames.js"></script>
+    <link href="lightbox/css/lightbox.min.css" rel="stylesheet">
+    <script src="lightbox/lightbox.min.js"></script>
+
    <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -20,13 +23,11 @@
    <body>
     <div class="wrapper">
         
-        
-        
-      <section>
+      <section class="section">
          <div class="hero">
             <div class="heroText">
                <h1 class="heroTitle">Hi,</h1>
-                <h1 class="heroTitle">My name is James but most people call me Jimmy.</h1>
+                <h1 class="heroTitle">My name is <span id="name">James</span> <span id="words">but most</span> people call me <span id="name2">Jimmy</span>.</h1>
                 <h1 class="heroTitle">I code under the alais of jimmyNames.</h1> <!-- but you can call me <span class="" id="nickName"></span>.</h1> -->
                 </div>
              
@@ -53,7 +54,8 @@
        
        
        
-      <section class="about">
+
+      <section class="about section">
          <div class="aboutContainer">
          
                <h2 class="title">About</h2>
@@ -93,7 +95,15 @@
             </div>
 
 <div class="imageArea">
-           <div class="jimmyImages">
+    
+    <div class="imageContainer jamesImages">
+        <img class="aboutImg" src="images/james/james.jpeg" alt="James Ryan">
+            </div>
+    
+    
+    <!--
+    <div class="jimmyImages">
+
 
                <button class="x" id="jamesX">X</button>
                <img class="aboutImg" src="images/jimmy/me.png" alt="me.png">
@@ -112,11 +122,8 @@
                <button class="x" id="fishX">X</button>
                <img id="aboutFish" src="images/jimmy/fish.png" alt="fish.png">
             </div>
+-->
 
-            
-            <div class="imageContainer jamesImages">
-               <img class="aboutImg" src="images/james/james.jpeg" alt="James Ryan">
-            </div>
              </div>
          
          <div class="aboutMeDetail">
@@ -136,13 +143,17 @@
        
        
        
-      <section class="workSection">
+
+      <section class="workSection section">
+
          <section class="workList">
             <h2 class="title">Work</h2>
             <ul>
                <li class="workItem">
                   <div class="workScreenshot">
-                     <img class="workScreenshotImage" src="images/examples/hideout.restaurant.png" alt="">
+
+                     <img class="workScreenshotImage" src="images/examples/hideoutMac.jpg" alt="">
+
                   </div>
 
                   <div class="workInfoSection" id="hideoutInfo">
@@ -151,8 +162,11 @@
                           <!-- James Work Text -->
                      <p class="workText workJames james">Designed and built website for pop-up Restaurant business. Utilised Wordpress to allow owners control of plugin features and content management. Customised theme to give unique feel to site adhering to clients brief.</p>
                           <!-- Jimmy Xp Bars -->
-                          
-                        <div id="skillset jimmy">
+
+                        <!--
+                          <div class="jimmy">
+                            <div id="skillset">
+
                             <div class="skill">
                                 <h5>CSS</h5>
                                     <span class="bar"><span class="skillbar htmlcss"></span></span>
@@ -168,8 +182,11 @@
                             <div class="skill">
                                 <h5>Minimalism</h5>
                                     <span class="bar"><span class="skillbar htmlcss"></span></span>
-                            </div>  
-                        </div>    
+
+                            </div> 
+                            </div>
+                        </div>   
+                        -->
                     </div>
                   </div>
                </li>
@@ -177,24 +194,28 @@
          </section>
          </section>
 
-         <section class="proSection">
-            <section class="proList">
-               <h2 class="proTitle title">Projects</h2>
+
+         <section class="proSection section">
+            <h2 class="title">Projects</h2>
+             <section class="proList">
                <ul>
                   <li class="proItem">
-                     <div class="proScreenshot">    
+                       <div class="proScreenshot">  
                         <div class="fake-ui">
                             <div class="fake-circle-btn red"></div>
                             <div class="fake-circle-btn yellow"></div>
                             <div class="fake-circle-btn green"></div>
                             <div class="fake-addr-bar"></div><div class="fake-back-btn"></div>
-                            <div class="fake-next-btn"></div></div>
-                         <img class="proScreenshotImage" src="images/examples/uao.com.png" alt="">
-                     </div>
-                     <h3 class="proTitle">Unite Against Oppression</h3>
-                     <div class="proInfoSection" id="hideoutInfo">
-                        <p class="proText"></p>
-                     </div>
+                            <div class="fake-next-btn"></div>
+                        </div>
+                        <!-- <a href="images/examples/uao.com.png" data-lightbox="image-1" data-title="Caption"><div class="proScreenshot"> -->
+                             <img class="proScreenshotImage" src="images/examples/uao.com.png" alt="">
+                      </div>
+                            <!--  </a> -->
+                     <!--<div class="proInfoSection" id="hideoutInfo">
+                         <h3 class="proTitle">Unite Against Oppression</h3>
+                            <p class="proText"></p>
+                     </div>-->
                   </li>
 
                   <li class="proItem">
@@ -207,10 +228,11 @@
                             <div class="fake-next-btn"></div></div>
                          <img class="proScreenshotImage" src="images/examples/jimbongo.com.png" alt="">
                      </div>
-                     <h3 class="proTitle">Jimmy's Bongo Lifestyle Blog</h3>
-                     <div class="proInfoSection" id="hideoutInfo">
-                        <p class="proText"></p>
-                     </div>
+                     <!--<div class="proInfoSection" id="hideoutInfo">
+                         <h3 class="proTitle">Jimmy's Bongo Lifestyle Blog</h3>
+                            <p class="proText"></p>
+                     </div>-->
+
                   </li>
 
                   <li class="proItem">
@@ -224,10 +246,11 @@
                          <img class="proScreenshotImage" src="images/examples/checkm8s.net2.png" alt="">
                      </div>
 
-                     <h3 class="proTitle">Checkm8s</h3>
-                     <div class="proInfoSection" id="hideoutInfo">
+                     <!--<div class="proInfoSection" id="hideoutInfo">
+                        <h3 class="proTitle">Checkm8s</h3>
                         <p class="proText"></p>
-                     </div>
+                     </div>-->
+
                   </li>
 
                   <li class="proItem">
@@ -237,18 +260,39 @@
                             <div class="fake-circle-btn yellow"></div>
                             <div class="fake-circle-btn green"></div>
                             <div class="fake-addr-bar"></div><div class="fake-back-btn"></div>
-                            <div class="fake-next-btn"></div></div>
-                         <img class="proScreenshotImage" src="images/examples/spratt.jpg" alt="">
+                            <div class="fake-next-btn"></div>
+                         </div>
+                         <img class="proScreenshotImage" src="images/examples/spratt.png" alt="">
                      </div>
-                     <h3 class="proTitle">LS Graphic Design Portfolio</h3>
-                     <div class="proInfoSection" id="hideoutInfo">
-                        <p class="proText"></p>
-                     </div>
+                     <!--<div class="proInfoSection" id="hideoutInfo">
+                         <h3 class="proTitle">LS Graphic Design Portfolio</h3>
+                            <p class="proText"></p>
+                     </div>-->
+
                   </li>
 
                </ul>
             </section>
          </section>
+    
+        <section class="section footer">
+            <footer>
+                <div class="footerLine"></div>
+                <div class="footerContent">
+                    <h1 class="title">Contact</h1>
+                        <div class="">
+                            <ul class="footerNav">
+                                <li><a href="mailto:jim.me.ryan@gmail.com">Email - jim.me.ryan@gmail.com</a></li>
+                                <li><a href="https://twitter.com/namescodes" target="_blank">Twitter - @namescodes</a></li>
+                                <li><a href="https://github.com/jimmynames" target="_blank">Github - jimmynames</a></li>
+                                <li><a href="https://www.linkedin.com/in/jimmyNames" target="_blank">LinkedIn - /in/jimmyNames</a></li>
+                            </ul>
+                    </div>
+                </div>
+                        </div>
+                 </div>
+            </footer>
+    </section>
 
 
 </div>

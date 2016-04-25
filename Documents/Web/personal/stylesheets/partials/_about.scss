@@ -1,10 +1,16 @@
 /* ///////// General /////////// */
 
-.aboutContainer {
-    display: block;
+
+.about {
     width: 100%;
-    background-color: white;
-    padding-bottom: 2em;
+}
+
+.aboutContainer {
+   padding: 1em 3em 2em 3em;
+   display: block;
+   background-color: white;
+    
+
    
 }
 
@@ -32,7 +38,19 @@
     float: right;
 }
 
+
+.jimmyImages,
+.jamesImages {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 /* ///////// James Images /////////// */
+
+.jamesImages {
+    opacity: 1;   
+}
 
 .aboutImg {
     border-radius: 3px;
@@ -49,56 +67,48 @@
 
 
 .jimmyImages {
-    //display: none;
+    opacity: 0;
+    display: none;
+>>>>>>> gh-pages
 }
     
 
 #aboutPlant {
-    z-index: -1;
+    z-index: 99;
     height: 200px;
     width: 200px;
-    position: relative;
-    /*
+    position: absolute;  
     left: 200px;
     bottom: 100px;
-    */
-    left: -120px;
-    bottom: -80px;
-    
+ 
 }
 
 #aboutDiv {
-    z-index: -1;
+    z-index: 99;
     height: 150px;
     width: 150px;
-    position: relative;
-    /*
-    left: 240px;
-    bottom: 460px;
-    */
-    left: 270px;
-    bottom: 430px;
-    
+    position: absolute;
+    left: -100px;
+    bottom: 0px;
 }
 
 #aboutFish {
-    z-index: -1;
+    z-index: 99;
     height: 220px;
     width: 220px;
-    position: relative;
-    /*
+    position: absolute;
     left: -100px;
     bottom: 750px;
-    */
-    bottom: 250px;
-    left: -430px;
+
 }
 
 #aboutView {
     z-index: 49;
     height: 130px;
     width: 130px;
-    position: relative;
+
+    position: absolute;
+
     /*
     left: 50px;
     bottom: 450px;

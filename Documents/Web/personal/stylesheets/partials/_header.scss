@@ -1,4 +1,5 @@
 .hero {
+    padding: 1em 3em 0 3em;
     background-color: black;
     background-size: cover;
     position: relative;
@@ -18,7 +19,6 @@
 .heroText {
     width: 50%;
     margin-left: 1em;
-    padding: 1em;
     position: relative;
     top: 50%;
     transform: translateY(-70%);
