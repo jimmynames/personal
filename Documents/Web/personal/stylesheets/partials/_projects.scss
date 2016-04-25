@@ -24,17 +24,20 @@
     
 }
 
-.proList {
+.proList ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
     text-align: center;
     margin: auto 0;
-    width: 90%;
 }
 
+
 .proItem {
-    display: inline-block;
-    width: 25%;
-    padding: 1em;
-    margin: 1.3em;
+    padding: 0.5em;
+    margin: 1em 2em 2em 2em;
 }
 
 .proScreenshot {

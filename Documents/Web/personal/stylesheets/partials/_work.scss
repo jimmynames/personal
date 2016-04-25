@@ -9,7 +9,10 @@
     );
 }
 
-.workList {}
+.workList ul {
+    list-style-type: none;
+    
+}
 
 .workScreenshot {
     display: inline-block;
