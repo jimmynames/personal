@@ -421,7 +421,6 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
 .heroText {
   width: 50%;
   margin-left: 1em;
-  padding: 1em;
   position: relative;
   top: 50%;
   transform: translateY(-70%); }
@@ -495,15 +494,12 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   display: inline-block; }
 
 .section {
-  max-width: 100%;
   height: 100%;
   max-height: 900px; }
 
 .footer {
-  color: white; }
-
-.footerContent {
-  padding: 5em; }
+  color: white;
+  background-image: linear-gradient(to right, #2e2e2e, #000000); }
 
 .footerHeader {
   font-size: 3em;
@@ -531,9 +527,6 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   color: #8CDD81;
   text-decoration: none; }
 
-.gradient {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)); }
-
 /* Work */
 .workSection {
   background-color: #e8e8e8; }
@@ -550,11 +543,12 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   background-color: #b9b8af; }
 
 /* ///////// General /////////// */
+.about {
+  width: 100%; }
+
 .aboutContainer {
   display: block;
-  width: 100%;
-  background-color: white;
-  padding-bottom: 2em; }
+  background-color: white; }
 
 /* ///////// About Section /////////// */
 .aboutText {
@@ -732,7 +726,7 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
 
 /* ///////// About Me Detail /////////// */
 .aboutMeDetail {
-  width: 100%;
+  width: 185%;
   overflow: auto; }
 
 .aboutMeTitle {
@@ -834,14 +828,13 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
                   </li>
 */
 .proSection {
-  width: 100%;
   margin: auto 0;
-  background-color: whitesmoke;
-  padding: 5em; }
+  background-image: linear-gradient(to right, #e8e8e8, #a2a2a2 90%); }
 
 .proList {
   text-align: center;
-  margin: auto 0; }
+  margin: auto 0;
+  width: 90%; }
 
 .proItem {
   display: inline-block;
@@ -879,7 +872,8 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
     margin: 0 auto; } }
 /* ////// Work Section /////// */
 .workSection {
-  padding-bottom: 2em; }
+  padding: 0 5em 2em 5em;
+  background-image: linear-gradient(to right, #e5e5e5, #ffffff); }
 
 .workScreenshot {
   display: inline-block;

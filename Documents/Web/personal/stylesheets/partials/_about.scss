@@ -1,10 +1,15 @@
 /* ///////// General /////////// */
 
-.aboutContainer {
-    display: block;
+
+.about {
     width: 100%;
-    background-color: white;
-    padding-bottom: 2em;
+}
+
+.aboutContainer {
+    
+    display: block;
+   background-color: white;
+    
    
 }
 
@@ -233,7 +238,7 @@
 
 
 .aboutMeDetail {
-    width: 100%;
+    width: 185%;
     overflow: auto;
 }
 

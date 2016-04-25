@@ -1,7 +1,12 @@
 /* ////// Work Section /////// */
 
 .workSection {
-    padding-bottom: 2em;
+    padding: 0 5em 2em 5em;
+     background-image:
+    linear-gradient(
+      to right, 
+    #e5e5e5, #ffffff
+    );
 }
 
 .workList {}
