@@ -404,6 +404,7 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   vertical-align: baseline; }
 
 .hero {
+  padding: 1em 3em 0 3em;
   background-color: black;
   background-size: cover;
   position: relative;
@@ -498,8 +499,9 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   max-height: 900px; }
 
 .footer {
+  padding: 1em 3em 2em 3em;
   color: white;
-  background-image: linear-gradient(to right, #2e2e2e, #000000); }
+  background-image: linear-gradient(to right, #000000, #2e2e2e); }
 
 .footerHeader {
   font-size: 3em;
@@ -524,7 +526,7 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
 
 .footerNav li a:active {
   /*color: #7BBF6A; leaf green*/
-  color: #8CDD81;
+  color: #7BBF6A 80%;
   text-decoration: none; }
 
 /* Work */
@@ -547,6 +549,7 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   width: 100%; }
 
 .aboutContainer {
+  padding: 1em 3em 2em 3em;
   display: block;
   background-color: white; }
 
@@ -726,7 +729,7 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
 
 /* ///////// About Me Detail /////////// */
 .aboutMeDetail {
-  width: 185%;
+  width: 100%;
   overflow: auto; }
 
 .aboutMeTitle {
@@ -748,7 +751,7 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   background-color: black; }
 
 .navWrapper {
-  width: 100%;
+  width: 95%;
   position: absolute;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -828,6 +831,7 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
                   </li>
 */
 .proSection {
+  padding: 1em 3em 2em 3em;
   margin: auto 0;
   background-image: linear-gradient(to right, #e8e8e8, #a2a2a2 90%); }
 
@@ -872,7 +876,7 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
     margin: 0 auto; } }
 /* ////// Work Section /////// */
 .workSection {
-  padding: 0 5em 2em 5em;
+  padding: 1em 3em 2em 3em;
   background-image: linear-gradient(to right, #e5e5e5, #ffffff); }
 
 .workScreenshot {
