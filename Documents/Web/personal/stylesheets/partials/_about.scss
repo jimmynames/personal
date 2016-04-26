@@ -25,12 +25,17 @@
 }
 
 .aboutMe {
+    width: 50%;
     display: inline-block;
+}
+
+.aboutText {
+    float: left;
 }
 
 /* ///////// General Images /////////// */
 
-.imageContainer,
+
 .imageArea {
     position: relative;
     width: 40%;
@@ -212,11 +217,10 @@
 
 .tags {
     
-    width: 66%;
+    width: 80%;
     margin: auto 0;
     display: inline-block;
     padding-top: 1em;
-    padding-left: 1em;
     color: darkgrey;
     font-size: 0.8em;
     cursor: default;
@@ -243,23 +247,30 @@
 
 
 .aboutMeDetail {
-    width: 100%;
+    width: 90%;
     overflow: auto;
+     line-height: 1.6em;
+    font-size: 0.9em;
+    margin-left: 0.7em;
+    padding: 1em;
 }
 
 .aboutMeTitle {
     max-width: 50%;
     width: 50%;
     font-size: 1.5em;
-    margin-left: 0.7em;
-
+    margin-bottom: 1em;
     display: inline-block;
 }   
 
+
 .aboutMe {
-    width: 50%;
     line-height: 1.6em;
     font-size: 0.9em;
     margin-left: 0.7em;
     padding: 1em;
+}
+
+.aboutMeText {
+    margin-left: 0.7em;
 }

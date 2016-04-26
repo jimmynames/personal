@@ -373,6 +373,9 @@ html {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important; }
 
+.clearfix {
+  overflow: auto; }
+
 /* $background_color: white !global;
 $text_color: black !global;
 $info_text_color: #777 !global; */
@@ -435,7 +438,7 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   font-size: 2em;
   margin-left: 0.7em;
   margin-bottom: 1em;
-  padding-top: 1em;
+  padding-top: 0.2em;
   display: inline-block; }
 
 .section {
@@ -490,10 +493,13 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   line-height: 1.6em; }
 
 .aboutMe {
+  width: 50%;
   display: inline-block; }
 
+.aboutText {
+  float: left; }
+
 /* ///////// General Images /////////// */
-.imageContainer,
 .imageArea {
   position: relative;
   width: 40%;
@@ -635,11 +641,10 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   text-align: center; }
 
 .tags {
-  width: 66%;
+  width: 80%;
   margin: auto 0;
   display: inline-block;
   padding-top: 1em;
-  padding-left: 1em;
   color: darkgrey;
   font-size: 0.8em;
   cursor: default;
@@ -658,22 +663,28 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
 
 /* ///////// About Me Detail /////////// */
 .aboutMeDetail {
-  width: 100%;
-  overflow: auto; }
+  width: 90%;
+  overflow: auto;
+  line-height: 1.6em;
+  font-size: 0.9em;
+  margin-left: 0.7em;
+  padding: 1em; }
 
 .aboutMeTitle {
   max-width: 50%;
   width: 50%;
   font-size: 1.5em;
-  margin-left: 0.7em;
+  margin-bottom: 1em;
   display: inline-block; }
 
 .aboutMe {
-  width: 50%;
   line-height: 1.6em;
   font-size: 0.9em;
   margin-left: 0.7em;
   padding: 1em; }
+
+.aboutMeText {
+  margin-left: 0.7em; }
 
 /* //////// General ////// */
 .navContainer {
