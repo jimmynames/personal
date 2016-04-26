@@ -369,13 +369,10 @@ td,
 th {
   padding: 0; }
 
-<<<<<<< HEAD
-=======
 html {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important; }
 
->>>>>>> gh-pages
 /* $background_color: white !global;
 $text_color: black !global;
 $info_text_color: #777 !global; */
@@ -407,10 +404,7 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   vertical-align: baseline; }
 
 .hero {
-<<<<<<< HEAD
-=======
   padding: 1em 3em 0 3em;
->>>>>>> gh-pages
   background-color: black;
   background-size: cover;
   position: relative;
@@ -428,69 +422,9 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
 .heroText {
   width: 50%;
   margin-left: 1em;
-<<<<<<< HEAD
-  padding: 1em;
-=======
->>>>>>> gh-pages
   position: relative;
   top: 50%;
   transform: translateY(-70%); }
-
-.proScreenshotImage {
-  border: 1px solid #ededed;
-  border-color: rgba(255, 255, 255, 0.75);
-  border-radius: 0 0 3px 3px;
-  border-top: 0; }
-
-.fake-ui {
-  text-align: center;
-  display: block;
-  padding: 8px;
-  background: #d3d3d3;
-  border-radius: 3px 3px 0 0;
-  position: relative; }
-
-.fake-circle-btn {
-  width: 8px;
-  height: 8px;
-  background: #ffffff;
-  border-radius: 50%;
-  margin-right: 5px;
-  float: left; }
-
-.fake-addr-bar {
-  background: white;
-  height: 8px;
-  border-radius: 2px;
-  margin-left: 49px;
-  margin-right: 32px; }
-
-.fake-back-btn,
-.fake-next-btn {
-  height: 8px;
-  width: 8px;
-  background: #ffffff;
-  float: right;
-  position: absolute; }
-
-.fake-back-btn {
-  border-radius: 0 3px 3px 0;
-  top: 8px;
-  right: 8px; }
-
-.fake-next-btn {
-  border-radius: 3px 0 0 3px;
-  top: 8px;
-  right: 17px; }
-
-.green:hover {
-  background: #AADD00; }
-
-.yellow:hover {
-  background: #FCD116; }
-
-.red:hover {
-  background: #FF2400; }
 
 * {
   font-family: Verdana, Geneva, sans-serif; }
@@ -504,29 +438,6 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   padding-top: 1em;
   display: inline-block; }
 
-<<<<<<< HEAD
-/* Work */
-.workSection {
-  background-color: #b9b8af; }
-
-.workScreenshotImage {
-  width: 50%; }
-
-.workItem {
-  margin-bottom: 1em;
-  margin-left: 1em; }
-
-/* Project */
-.projectSection {
-  background-color: #b9b8af; }
-
-/* ///////// General /////////// */
-.aboutContainer {
-  display: block;
-  width: 100%;
-  background-color: white;
-  padding-bottom: 2em; }
-=======
 .section {
   height: 100%;
   max-height: 900px; }
@@ -570,7 +481,6 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   padding: 1em 3em 2em 3em;
   display: block;
   background-color: white; }
->>>>>>> gh-pages
 
 /* ///////// About Section /////////// */
 .aboutText {
@@ -590,9 +500,6 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   margin: auto 0;
   float: right; }
 
-<<<<<<< HEAD
-/* ///////// James Images /////////// */
-=======
 .jimmyImages,
 .jamesImages {
   position: absolute;
@@ -603,7 +510,6 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
 .jamesImages {
   opacity: 1; }
 
->>>>>>> gh-pages
 .aboutImg {
   border-radius: 3px;
   z-index: 50;
@@ -614,43 +520,6 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   box-shadow: 6px 4px 29px -2px rgba(0, 0, 0, 0.46); }
 
 /* ///////// Jimmy Images /////////// */
-<<<<<<< HEAD
-#aboutPlant {
-  z-index: -1;
-  height: 200px;
-  width: 200px;
-  position: relative;
-  /*
-  left: 200px;
-  bottom: 100px;
-  */
-  left: -120px;
-  bottom: -80px; }
-
-#aboutDiv {
-  z-index: -1;
-  height: 150px;
-  width: 150px;
-  position: relative;
-  /*
-  left: 240px;
-  bottom: 460px;
-  */
-  left: 270px;
-  bottom: 430px; }
-
-#aboutFish {
-  z-index: -1;
-  height: 220px;
-  width: 220px;
-  position: relative;
-  /*
-  left: -100px;
-  bottom: 750px;
-  */
-  bottom: 250px;
-  left: -430px; }
-=======
 .jimmyImages {
   opacity: 0;
   display: none; }
@@ -678,17 +547,12 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   position: absolute;
   left: -100px;
   bottom: 750px; }
->>>>>>> gh-pages
 
 #aboutView {
   z-index: 49;
   height: 130px;
   width: 130px;
-<<<<<<< HEAD
-  position: relative;
-=======
   position: absolute;
->>>>>>> gh-pages
   /*
   left: 50px;
   bottom: 450px;
@@ -816,11 +680,7 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   background-color: black; }
 
 .navWrapper {
-<<<<<<< HEAD
-  width: 100%;
-=======
   width: 95%;
->>>>>>> gh-pages
   position: absolute;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -865,20 +725,12 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
       .emoji-toggle .toggle ~ label:before {
         position: absolute;
         right: 100%;
-<<<<<<< HEAD
-        margin-right: 5px;
-=======
         margin-right: 10px;
->>>>>>> gh-pages
         top: 0; }
       .emoji-toggle .toggle ~ label:after {
         position: absolute;
         left: 100%;
-<<<<<<< HEAD
-        margin-left: 5px;
-=======
         margin-left: 10px;
->>>>>>> gh-pages
         top: 0; }
 
 .emoji-james .toggle ~ .emoji:before {
@@ -897,62 +749,33 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   display: none; }
 
 /* //////// Projects ///////// */
- /* <li class="proItem">
-                     <div class="proScreenshot">
-                        <img class="proScreenshotImage" src="images/examples/jimbongo.com.png" alt="">
-                     </div>
-                     <h3 class="proTitle">Jimmy's Bongo Lifestyle Blog</h3>
-                     <div class="proInfoSection" id="hideoutInfo">
-                        <p class="proText"></p>
-                     </div>
-                  </li>
-*/
 .proSection {
-<<<<<<< HEAD
-  width: 100%;
-  margin: auto 0;
-  background-color: whitesmoke; }
-
-.proList {
-=======
   padding: 1em 3em 2em 3em;
   margin: auto 0;
   background-image: linear-gradient(to right, #e8e8e8, #a2a2a2 90%); }
 
-.proList ul {
+.proList {
   list-style-type: none;
   display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap-reverse;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
->>>>>>> gh-pages
   text-align: center;
   margin: auto 0; }
 
 .proItem {
-<<<<<<< HEAD
-  display: inline-block;
-  width: 25%;
-  padding: 1em;
-  margin: 1.3em; }
-=======
   padding: 0.5em;
-  margin: 1em 2em 2em 2em; }
->>>>>>> gh-pages
+  margin: 1em 2em 2em 2em;
+  text-align: center; }
 
 .proScreenshot {
-  height: 230px;
-  width: 330px; }
+  width: 400px;
+  height: 230px; }
 
 .proScreenshotImage {
   height: inherit;
   width: inherit; }
 
-<<<<<<< HEAD
-/* ////// Work Section /////// */
-.workSection {
-  padding-bottom: 2em; }
-=======
 .proTitle {
   text-align: center;
   margin: 0 auto; }
@@ -963,16 +786,79 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   margin-left: auto;
   margin-right: auto; }
 
-/* Responsive */
-@media only screen and (max-width: 666px) {
-  .proItem {
-    display: block;
-    width: 50%;
-    margin-bottom: 0.5em; }
+.proScreenshotImage {
+  border: 1px solid #ededed;
+  border-color: rgba(255, 255, 255, 0.75);
+  border-radius: 0 0 3px 3px;
+  border-top: 0;
+  width: 100%; }
 
-  .proList ul li {
-    text-align: center;
-    margin: 0 auto; } }
+.fake-ui {
+  text-align: center;
+  display: block;
+  padding: 8px;
+  background: #d3d3d3;
+  border-radius: 3px 3px 0 0;
+  position: relative; }
+
+.fake-circle-btn {
+  width: 8px;
+  height: 8px;
+  background: #ffffff;
+  border-radius: 50%;
+  margin-right: 5px;
+  float: left; }
+
+.fake-addr-bar {
+  background: white;
+  height: 8px;
+  border-radius: 2px;
+  margin-left: 49px;
+  margin-right: 32px; }
+
+.fake-back-btn,
+.fake-next-btn {
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  float: right;
+  position: absolute; }
+
+.fake-back-btn {
+  border-radius: 0 3px 3px 0;
+  top: 8px;
+  right: 8px; }
+
+.fake-next-btn {
+  border-radius: 3px 0 0 3px;
+  top: 8px;
+  right: 17px; }
+
+.green:hover {
+  background: #AADD00; }
+
+.yellow:hover {
+  background: #FCD116; }
+
+.red:hover {
+  background: #FF2400; }
+
+/* Responsive */
+/*
+@media only screen and (max-width: 666px) {
+
+    .proItem {
+        display: block;
+        width: 50%;
+        margin-bottom: 0.5em;
+    }
+    
+    .proList ul li {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+*/
 /* ////// Work Section /////// */
 .workSection {
   padding: 1em 3em 2em 3em;
@@ -980,7 +866,6 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
 
 .workList ul {
   list-style-type: none; }
->>>>>>> gh-pages
 
 .workScreenshot {
   display: inline-block;

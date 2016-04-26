@@ -13,7 +13,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
    <link rel="stylesheet" href="stylesheets/main.css">
     <link href="lightbox/css/lightbox.min.css" rel="stylesheet">
-    <script src="lightbox/lightbox.min.js"></script>
 
    <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -151,8 +150,14 @@
             <ul>
                <li class="workItem">
                   <div class="workScreenshot">
-
-                     <img class="workScreenshotImage" src="images/examples/hideoutMac.jpg" alt="">
+                    <a href="images/examples/hideoutMac.jpg" data-lightbox="hideout" data-title="The Hideout">
+                     <img class="workScreenshotImage" src="images/examples/hideoutMac.png" alt="Macbook with The Hideout Popup Restaurant Displaying"></a>
+                      
+                      <a href="images/examples/hideoutPhone.jpg" data-lightbox="hideout"></a>
+                      <a href="images/examples/hideout.restaurant.png" data-lightbox="hideout"></a>
+                      <a href="images/examples/hideout.restaurant2.png" data-lightbox="hideout"></a>
+                      <a href="images/examples/hideout.restaurant3.png" data-lightbox="hideout"></a>
+                      <a href="images/examples/hideout.restaurant4.png" data-lightbox="hideout"></a>
 
                   </div>
 
@@ -197,8 +202,7 @@
 
          <section class="proSection section">
             <h2 class="title">Projects</h2>
-             <section class="proList">
-               <ul>
+               <ul class="proList">
                   <li class="proItem">
                        <div class="proScreenshot">  
                         <div class="fake-ui">
@@ -209,7 +213,9 @@
                             <div class="fake-next-btn"></div>
                         </div>
                         <!-- <a href="images/examples/uao.com.png" data-lightbox="image-1" data-title="Caption"><div class="proScreenshot"> -->
-                             <img class="proScreenshotImage" src="images/examples/uao.com.png" alt="">
+                          <a href="images/examples/UAOMac.jpg" data-lightbox="uao" data-title="Unite Against Oppression">
+                           <img class="proScreenshotImage" src="images/examples/uao.com.png" alt="Unite Against Oppression" />
+                           </a>
                       </div>
                             <!--  </a> -->
                      <!--<div class="proInfoSection" id="hideoutInfo">
@@ -226,7 +232,9 @@
                             <div class="fake-circle-btn green"></div>
                             <div class="fake-addr-bar"></div><div class="fake-back-btn"></div>
                             <div class="fake-next-btn"></div></div>
-                         <img class="proScreenshotImage" src="images/examples/jimbongo.com.png" alt="">
+                          <a href="images/examples/" data-lightbox="jimBongo" data-title="Jimmy's Bongo Lifestyle Blog">
+                         <img class="proScreenshotImage" src="images/examples/jimbongo.com.png" alt="" />
+                         </a>
                      </div>
                      <!--<div class="proInfoSection" id="hideoutInfo">
                          <h3 class="proTitle">Jimmy's Bongo Lifestyle Blog</h3>
@@ -243,7 +251,9 @@
                             <div class="fake-circle-btn green"></div>
                             <div class="fake-addr-bar"></div><div class="fake-back-btn"></div>
                             <div class="fake-next-btn"></div></div>
-                         <img class="proScreenshotImage" src="images/examples/checkm8s.net2.png" alt="">
+                         <a href="images/examples/checkMac.jpg" data-lightbox="checkm8s" data-title="Checkm8s.net">
+                         <img class="proScreenshotImage" src="images/examples/checkm8s.net2.png" alt="" />
+                         </a>
                      </div>
 
                      <!--<div class="proInfoSection" id="hideoutInfo">
@@ -262,7 +272,10 @@
                             <div class="fake-addr-bar"></div><div class="fake-back-btn"></div>
                             <div class="fake-next-btn"></div>
                          </div>
-                         <img class="proScreenshotImage" src="images/examples/spratt.png" alt="">
+                         <a href="images/examples/sprattMac.jpg" data-lightbox="spratt" data-title="Lawrence Spratt's Graphic Design Portfolio">
+                         <img class="proScreenshotImage" src="images/examples/spratt.png" alt="Lawrence Spratt's Graphic Design Portfolio" />
+                         </a>
+                         <a href="images/examples/sprattPhone.jpg" data-lightbox="spratt"></a>
                      </div>
                      <!--<div class="proInfoSection" id="hideoutInfo">
                          <h3 class="proTitle">LS Graphic Design Portfolio</h3>
@@ -272,7 +285,6 @@
                   </li>
 
                </ul>
-            </section>
          </section>
     
         <section class="section footer">
@@ -296,6 +308,7 @@
 
 
 </div>
+ <script src="lightbox/lightbox.min.js"></script>
 </body>
 
 </html>
