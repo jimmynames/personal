@@ -378,11 +378,10 @@ html {
 
 .section {
   max-width: 100%;
+  height: 100vh;
   position: relative;
   overflow: hidden;
-  height: 100%;
-  max-height: 900px;
-  background-attachment: fixed; }
+  max-height: 900px; }
 
 /* $background_color: white !global;
 $text_color: black !global;
@@ -449,14 +448,26 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   padding-top: 0.2em;
   display: inline-block; }
 
-.section {
-  position: relative;
-  height: 100%; }
-
 .footer {
   padding: 1em 3em 2em 3em;
   color: black;
   background-image: linear-gradient(to right, #cabc92, #e3dcc5); }
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%); }
 
 .footerHeader {
   font-size: 3em;
@@ -883,7 +894,7 @@ html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, figure, nav {
   padding: 1em 3em 2em 3em;
   background-image: linear-gradient(to right, #e5e5e5, #ffffff); }
 
-.workList ul {
+.workList {
   list-style-type: none; }
 
 .workScreenshot {
